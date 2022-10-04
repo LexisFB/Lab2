@@ -1,21 +1,16 @@
 import './App.css';
 import React from 'react';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Cnav } from './components/nav';
-import { Header } from './components/header';
-import { Content } from './components/content';
+import 'bootstrap/dist/css/bootstrap.min.css'; //Importing boostrap css
+import { Cnav } from './components/nav'; // Importing Component Nav 
 
-
-
-class App extends React.Component {
+class App extends React.Component { // Creating Class with HTML to export and render on a different component
 
   render(){
 
     return (
       <div className="App">
       <Cnav></Cnav>
-    
      
 
       </div>
